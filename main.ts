@@ -1,4 +1,5 @@
-import { Hono, cors } from "jsr:@hono/hono";
+import { Hono } from "jsr:@hono/hono";
+import { cors } from "jsr:@hono/hono/cors";
 
 import { chat } from "./src/api/chat.ts";
 import { models } from "./src/api/models.ts";
